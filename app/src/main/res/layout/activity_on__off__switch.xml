@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".On_Off_Switch">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Motor_Switch"
+        android:textColor="@color/Welcome_text_color"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:text="@string/Toggle_Switch"
+        android:textOff="Off"
+        android:textOn="On"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="146dp" />
+</android.support.constraint.ConstraintLayout>
